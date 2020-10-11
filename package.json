@@ -1,0 +1,21 @@
+{
+  "name": "get-all-static-data",
+  "version": "0.0.1",
+  "description": "Workaround to 'return data' from Next.js's getStaticPaths",
+  "main": "index.js",
+  "repository": "https://github.com/balazsorban44/get-all-static-data",
+  "author": "Balázs Orbán",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "next": "^9.5.3",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc"
+  }
+}
