@@ -1,5 +1,12 @@
 # get-all-static-data
 
+> Experimental ⚠
+> This is currently under development,
+> and probably will not work as advertised.
+> The README.md can also be outdated right now.
+> Please refer to the source code for further guidance
+> Contributions are welcome 🙂
+
 Workaround to 'return data' from Next.js's getStaticPaths
 
 https://github.com/vercel/next.js/discussions/11272
